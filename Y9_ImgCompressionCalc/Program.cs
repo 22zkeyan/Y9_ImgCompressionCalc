@@ -38,7 +38,7 @@
 
             //}
 
-            for (int i = 0; i < fileReduction.Length-1; i++)
+            for (int i = 0; i < fileReduction.Length; i++)
             {
                 compressedFileSizes[i] = (width * height * bitDepth) * fileReduction[i] / 8000;
             }
